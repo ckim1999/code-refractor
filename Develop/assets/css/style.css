@@ -75,7 +75,7 @@ p {
     margin-left: 20px;
 }
 
-aside {
+.benefit {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,17 +86,23 @@ aside {
     background-color: #2589bd;
 }
 
-section {
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-section h3 {
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-section img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -156,13 +162,13 @@ section img {
     font-size: 36px;
 }
 
-footer {
+.footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-footer h2 {
+.footer h2 {
     font-size: 20px;
 }
